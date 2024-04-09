@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/plugin",
+    "sourceMap": true,
+    "declaration": true,
+    "noEmit": false,
+  },
+  "include": ["."],
+  "exclude": [".git", ".vscode", "node_modules", "out", "lib", "dist"]
+}
