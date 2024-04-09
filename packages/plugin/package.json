@@ -1,7 +1,8 @@
 {
   "name": "vite-plugin-inspect",
   "scripts": {
-    "build": "vite build -c app/vite.config.ts && tsc -p plugin/src/tsconfig.json"
+    "build": "vite build -c app/vite.config.ts && tsc -p plugin/src/tsconfig.json",
+    "start": "vite serve -c app/vite.config.ts"
   },
   "type": "module",
   "types": "./dist/plugin/index.d.ts",
